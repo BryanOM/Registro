@@ -11,7 +11,7 @@ from datetime import time, datetime
 from openerp.tools.translate import _
 
 
-class registro_modelo(osv.osv):
+class registro_modelo(models.Model):
 	_name = 'registro.modelo'
 	_description = 'Formulario de Atletas'
 	_columns = {

@@ -23,7 +23,7 @@ Nota: Necesita Ventas.
     'license' : 'AGPL-3',
     'depends': ['sale'],
     'update_xml': [
-        'registro.xml',
+        'registro_view.xml',
     ],
     'installable': True,
     'active': False,

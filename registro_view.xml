@@ -3,7 +3,7 @@
 	 <data>
 	 	<!--  Vamos a grabar datos  -->
 	 	<record id="registro__modelo_tree" model="ir.ui.view">
-	 		<field name="name">registro.modelo.tree</field>
+	 		<field name="name">registro modelo tree</field>
 	 		<field name="model">registro.modelo</field>
             	<field name="arch" type="xml"> 
             	   <tree string ="Listado de Registros">
@@ -19,7 +19,7 @@
 	 		<field name="name">registro.modelo.form</field>
 	 		<field name="model">registro.modelo</field>
             	<field name="arch" type="xml"> 
-            	   <form string ="Formulario de Registros" version="9.0">
+            	   <form string ="Formulario de Registros" version="10.0">
             	   	<!--  Cuerpo  -->
             	   	<sheet>
             	   	<group> 
